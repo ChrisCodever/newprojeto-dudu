@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais Topzera</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<style>
+
+ @font-face {
+        font-family: Special Elite ;
+        src: url(fonts/SpecialElite-Regular.ttf)  format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        /* fonte usada nos titulos */
+        }
+
+@font-face {
+        font-family: Mulish ;
+        src: url(fonts/Mulish-Light.ttf)  format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        /* fonte usada nas descrições */
+        }
+
+@font-face {
+        font-family: Inter ;
+        src: url(fonts/Inter-Regular.ttf)  format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        /* fonte usada  no footer */
+}
+
+*  
+{
+    margin: 0px;
+    padding: 0px;
+}
+   
+main {
+    display: block;
+    background-color: white;
+    min-width: 420px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-size-adjust: 100vw;
+}
+
+main img {
+    width: 100%; 
+}
+
+
+footer {
+    background-color:  black;
+    color:#D9DBE1;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+section.container   {      
+display: flex;
+margin: 80px 80px;
+}
+
+section.container img {    
+max-width: 300px;
+min-width: 100px;
+border-radius: 15px;  
+}
+
+section.containerinvertido   {       
+    display: flex;
+    margin: 80px 80px;
+    flex-direction: row-reverse;
+}
+
+section.containerinvertido img {        
+    border-radius: 15px;
+    max-width: 300px;
+    min-width: 100px;
+      
+}
+
+.h1dir {    
+      
+padding: 5px 55px;
+color: black;
+font-family: Special Elite;
+font-size: 3.2vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.25px;
+}
+
+.h1esq {
+color:  black;
+font-family: Special Elite;
+font-size: 3.2vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.25px;
+
+}
+
+ .paragdir {      
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #000000;
+    font-family: Mulish ;
+    padding: 5px 0px 5px 60px;
+    font-weight: 600;
+    max-width: 700px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;  
+}
+
+.paragesq {    
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.2em;
+    color: #000000;
+    font-family: Mulish ;
+    padding: 5px 60px 5px 0px;
+    font-weight: 600;
+    max-width: 700px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;    
+}
+
+body {     
+    background-color: #ffffff;
+    margin: auto;  
+}
+
+div.absolute > p {   
+    position: absolute; 
+    left: 50% ;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Special Elite;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.25px;
+}
+
+div.absolute  {
+     
+position: absolute;
+background-color: rgba(0, 0, 0, 0.514);
+width: 100vw;
+height: 400px; 
+}
+
+div.floresta  {
+    width: 100vw;
+    height: 400px;
+    background-image: url(Imagens/floresta.jpg);
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover; 
+}
+
+</style>
+<body>
+    <header>
+        <div class=absolute>
+            <p>Animais Topzera
+                <br>
+                e onde habitam
+            </p>
+        </div>
+
+        <!-- outra div-->
+        
+        <div class="floresta">
+        </div>
+        
+        <!-- outra div-->
+        
+        
+
+         
+        </header>
+
+        <main>
+            <section class="container">
+
+                <div><img src="imagens/galinhas.jpg" alt="" ></div>
+                <div>
+                    <h1 class="h1dir">Galinha Caipira</h1>
+                    <p class="paragdir"> Galinha caipira é um animal da espécie Gallus gallus domesticus de aves galiformes e fasianídeas. Os juvenis são
+                    chamados de frangos, e os filhotes, de pintos, pintainhos (português europeu) ou pintinhos (português brasileiro). Estas
+                    aves possuem bico pequeno, crista carnuda, pernas escamosas e asas curtas e largas.</p>
+                </div>
+      
+
+            </section>
+
+            <section class="containerinvertido">
+            
+                <div><img src="imagens/macacoview.png" alt=""></div>
+
+                <div>
+                    <h1 class="h1esq">Macaco Narigudo</h1>
+                    <p class="paragesq">O macaco-narigudo (Nasalis larvatus tuizada) é um macaco da família dos cercopitecídeos, endêmico das florestas
+                    tropicais de Bornéu, o qual se encontra localizado no oceano Índico.Seu habitat está sempre em torno de rios, pântanos e
+                    mangues. Seu nome popular deriva do fato dos machos possuírem um nariz longo e flexível. Seu nariz emite um som, o qual
+                    também atrai fêmeas na época de acasalamento. O formato do nariz amplifica o eco, porém apenas os machos apresentam o
+                    nariz saliente.</p>
+                </div>
+            
+            
+            </section>
+
+            <section class="container">
+            
+                <div><img src="imagens/tubaronicoview.png" alt=""></div>
+                <div>
+                    <h1 class="h1dir">Cavalo Tubaronico</h1>
+                    <p class="paragdir"> O Cavalo tubaronico, vulgarmente conhecido como tutubarão ou Jabberjaw, é o baterista do The Neptunes, um grupo de rock
+                    formado por quatro adolescentes - Biff, Shelly, Bubbles e Clamhead - que vivem em uma civilização subaquática no ano de
+                    2076.</p>
+                </div>
+            
+            
+            </section>
+            
+            <section class="containerinvertido">
+            
+                <div><img src="imagens/aieview.png" alt=""></div>
+            
+                <div>
+                    <h1 class="h1esq">Aie Aie</h1>
+                    <p class="paragesq"> O aie-aie, também ai-ai ou aye-aye é um primata estrepsirrino endémico de Madagáscar. É o único representante vivo da
+                    família Daubentoniidae. Noturno e arborícola, possui pelo negro e um dos seus dedos é maior, que usa para conseguir
+                    caçar larvas nos buracos das árvores. Os seus olhos são grandes e possui boa visão noturna. </p>
+                </div>
+            
+            
+            </section>
+            
+        
+                 
+
+</main>
+                <footer>© 2021 Escolinha de DEV do Dudu. Todos os direitos reservados</footer>
+
+
+
+
+                
+</body>
+</html>
