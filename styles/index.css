@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Special Elite;
+  src: url(../fontes/SpecialElite-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  /* fonte usada nos titulos */
+}
+
+@font-face {
+  font-family: Mulish;
+  src: url(../fontes/Mulish-Light.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  /* fonte usada nas descrições */
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../fontes/Inter-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  display: block;
+  background-color: var(--background);
+  min-width: 420px;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-size-adjust: 100vw;
+}
+
+main img {
+  width: 100%;
+}
+
+
+footer {
+  background-color: black;
+  color: #D9DBE1;
+  text-align: center;
+  font-size: 14px;
+  padding: 12px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+section.container {
+  display: flex;
+  margin: 80px 80px;
+}
+
+section.container img {
+  max-width: 300px;
+  min-width: 100px;
+  border-radius: 15px;
+}
+
+section.container--invertido {
+  display: flex;
+  margin: 80px 80px;
+  flex-direction: row-reverse;
+}
+
+section.container--invertido img {
+  border-radius: 15px;
+  max-width: 300px;
+  min-width: 100px;
+}
+
+.h1dir {
+  padding: 5px 55px;
+}
+
+.paragdir {
+  text-align: justify;
+  padding: 5px 0px 5px 60px;
+  max-width: 700px;
+  word-wrap: break-word;
+}
+
+.paragesq {
+  padding: 5px 60px 5px 0px;
+  text-align: justify;
+  max-width: 700px;
+  word-wrap: break-word;
+}
+
+body {
+  background-color: #ffffff;
+  margin: auto;
+}
+
+div.absolute>p {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Special Elite;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
+
+div.absolute {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.514);
+  width: 100vw;
+  height: 400px;
+}
+
+div.floresta {
+  width: 100vw;
+  height: 400px;
+  background-image: url(../imagens/forest.jpg);
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
