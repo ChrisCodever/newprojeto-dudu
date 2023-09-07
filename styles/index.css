@@ -1,6 +1,6 @@
 @font-face {
   font-family: Special Elite;
-  src: url(../fontes/SpecialElite-Regular.ttf) format('truetype');
+  src: url(../assets/fonts/SpecialElite-Regular.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
   /* fonte usada nos titulos */
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: Mulish;
-  src: url(../fontes/Mulish-Light.ttf) format('truetype');
+  src: url(../assets/fonts/Mulish-Light.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
   /* fonte usada nas descrições */
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: Inter;
-  src: url(../fontes/Inter-Regular.ttf) format('truetype');
+  src: url(../assets/fonts/Inter-Regular.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -43,7 +43,6 @@ main {
 main img {
   width: 100%;
 }
-
 
 footer {
   background-color: black;
@@ -126,7 +125,7 @@ div.absolute {
 div.floresta {
   width: 100vw;
   height: 400px;
-  background-image: url(../imagens/forest.jpg);
+  background-image: url(../assets/images/forest.jpg);
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
