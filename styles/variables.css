@@ -1,6 +1,7 @@
 :root {
   --background: white;
   --font-color: black;
+  --light-font-color:#D9DBE1;
 
   --container-width: 1100px;
 }

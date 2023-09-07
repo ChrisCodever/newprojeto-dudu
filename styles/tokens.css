@@ -25,5 +25,8 @@
   font-family: Mulish;
   letter-spacing: 0.25px;
   word-wrap: break-word;
-  text-align: justify;
+}
+
+.light-font {
+  color: var(--light-font-color);
 }
