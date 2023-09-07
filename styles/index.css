@@ -56,7 +56,7 @@
   background-image: url(../assets/images/forest.jpg);
   background-attachment: fixed;
   background-position: bottom center;
-  background-size: cover;
+  background-size: auto;
 }
 
 .content-wrapper {
@@ -71,6 +71,10 @@
 .container {
   display: flex;
   gap: 60px;
+}
+
+.container--reverse {
+  flex-direction: row-reverse;
 }
 
 .container__image {
