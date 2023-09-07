@@ -1,7 +1,16 @@
 .primary-title {
+  font-family: Special Elite;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
+
+.secondary-title {
   color: var(--font-color);
   font-family: Special Elite;
-  font-size: 3.2vw;
+  font-size: 44px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -10,9 +19,11 @@
 
 .regular-text {
   font-weight: 600;
-  font-size: 1.4vw;
+  font-size: 16px;
   line-height: 1.2em;
   color: var(--font-color);
   font-family: Mulish;
   letter-spacing: 0.25px;
+  word-wrap: break-word;
+  text-align: justify;
 }
