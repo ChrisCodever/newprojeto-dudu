@@ -3,7 +3,7 @@
   src: url(../assets/fonts/SpecialElite-Regular.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
-  /* fonte usada nos titulos */
+  /* font primary and secondary tit*/
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   src: url(../assets/fonts/Mulish-Light.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
-  /* fonte usada nas descrições */
+  /* Font regular-tex */
 }
 
 @font-face {
@@ -19,13 +19,18 @@
   src: url(../assets/fonts/Inter-Regular.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
+  /* Font footer */
 }
 
 @media screen and (max-width: 730px) {
 section.container { 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
+  }
+  
+  h2 {
+    text-align: center;
   }
 }
 
@@ -79,6 +84,7 @@ section.container {
 .container {
   display: flex;
   gap: 60px; 
+  background-color: var(--background); 
 }
 
 .container--reverse {
